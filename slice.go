@@ -12,7 +12,7 @@ func sort(slice []int, new_number int) int {
 			return (idx)
 		}
 	}
-	return (-1)
+	return (0)
 }
 
 func main() {
