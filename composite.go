@@ -25,6 +25,6 @@ func main() {
 		fmt.Printf("%s -- %s\n", strconv.Itoa(idx+1), strconv.Itoa(value))
 	}
 
-	fmt.Printf("len is % and cap is %s", len(my_slice), strconv.Itoa(cap(my_slice)))
+	fmt.Printf("len is %d and cap is %s", len(my_slice), strconv.Itoa(cap(my_slice)))
 
 }
