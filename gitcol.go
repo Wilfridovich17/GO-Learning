@@ -4,5 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Github Collaboration")
-	fmt.Println("A change to solve the conflict")
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
 }
